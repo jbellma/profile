@@ -1,0 +1,110 @@
+
+body {
+  background-color: #fafafa;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #0022ff;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #0d0d0d;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: #000000;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff3939;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ee13c2;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card-white {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-purple {
+  background-color: #ff3939;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+  background-color: #ee13c2;
+  color: white;
+}
+
+#introduction {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
